@@ -11,6 +11,12 @@ and two feature pipelines.
   - **README.md**          - General overview of the project
   - **BearingFaultReport.pdf**          - Report on the findings
   
+Key Findings
+------------
+
+The confusion matrix obtained from the BearingFault.py file which holds out a load intensity for testing purposes.
+![Bearing Fault](Report/cm_unknown_load.png)
+
 
 Python codes
 ------------
