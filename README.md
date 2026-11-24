@@ -14,7 +14,7 @@ and two feature pipelines.
 Key Findings
 ------------
 
-The confusion matrix obtained from the BearingFault.py file which holds out a load intensity for testing purposes.
+The confusion matrix obtained from the BearingFault.py file which holds out a load intensity for testing purposes. The test accuracy reached 95.37%  .
 ![Bearing Fault](Report/cm_unknown_load.png)
 
 
