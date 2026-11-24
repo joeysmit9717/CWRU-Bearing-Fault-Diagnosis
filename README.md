@@ -37,14 +37,14 @@ What the analysis does
    trained on loads {0,1,3} HP and tested on held-out 2 HP.
 4. Experiment B (BearingFault021unknown.py): same FFT+time features;
    train on defect sizes {0.007, 0.014, 0.028}", test on held-out
-   0.021" (unknown severity).
+   0.021" (unknown bearing dent severity).
 5. Experiment C (BearingFaultDifferentApproach.py): same severity
-   split; 2048-sample windows; 2-5 kHz bandpass -> Hilbert envelope;
+   split as experiment B; 2048-sample windows; 2-5 kHz bandpass -> Hilbert envelope;
    narrowband energy at BPFO/BPFI/BSF harmonics (+ ratios, envelope
    kurtosis/crest); Random Forest on 15 features.
 6. Report test accuracy, classification report, and confusion matrices.
 
-Plots in figures/
+Generated python plots
 -----------------
   baseline_stats.png                 RMS / kurtosis / crest @ 0.007" 0 HP
   time_signals_0_2000.png            Time signals, samples 0-2000
@@ -61,33 +61,11 @@ Plots in figures/
 
 How to regenerate the plots
 ---------------------------
-From the project root (or any cwd; paths are resolved from the scripts):
 
-  set MPLBACKEND=Agg
-  set PYTHONIOENCODING=utf-8
-  py -3 PdM\BearingFault.py
-  py -3 PdM\BearingFault021unknown.py
-  py -3 PdM\BearingFaultDifferentApproach.py
+-  BearingFault.py
+-  BearingFault021unknown.py
+-  BearingFaultDifferentApproach.py
 
-On PowerShell:
-
-  $env:MPLBACKEND='Agg'
-  $env:PYTHONIOENCODING='utf-8'
-  py -3 PdM\BearingFault.py
-  py -3 PdM\BearingFault021unknown.py
-  py -3 PdM\BearingFaultDifferentApproach.py
-
-Figures are written to this folder under figures/. Set SAVE_FIGURES=0 to
-skip saving PNGs. EDA time/FFT/baseline_stats PNGs are saved from
-BearingFault.py only (the other two scripts skip duplicate EDA exports).
-accuracy_comparison.png is a report summary chart kept in figures/.
-
-How to build the PDF report (Overleaf)
---------------------------------------
-1. Create a new Overleaf project.
-2. Upload report.tex and the figures/ folder (keep the same relative
-   paths: figures/*.png).
-3. Compile. Download the PDF for your portfolio / applications.
 
 Requirements
 ------------
