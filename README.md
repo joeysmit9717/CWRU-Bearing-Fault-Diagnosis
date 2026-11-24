@@ -30,7 +30,7 @@ Python codes
 Dataset
 -------
 
-For this project the CWRU Bearing Data Centre .mat NORMAL BASELINE DATA and the 12k DRIVE END BEARING FAULT DATA were used. The total dataset consists of 61 .mat files, consisting of 1 NORMAL BASELINE DATA file and 60 BEARING FAULT DATA files. 
+For this project the CWRU Bearing Data Centre .mat NORMAL BASELINE DATA and the 12k DRIVE END BEARING FAULT DATA were used. The total dataset consists of 61 .mat files, consisting of 1 NORMAL BASELINE DATA file and 60 BEARING FAULT DATA files. https://engineering.case.edu/bearingdatacenter/download-data-file
 
 What the analysis does
 ----------------------
