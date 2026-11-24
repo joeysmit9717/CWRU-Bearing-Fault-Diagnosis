@@ -76,7 +76,7 @@ How to regenerate the plots
 
 Requirements
 ------------
-Python 3.x with: numpy, matplotlib, scipy, scikit-learn
+Python 3.x with: numpy, matplotlib, scipy, scikit-learn, CWRU NORMAL BASELINE DATA and CWRU 12k DRIVE END BEARING FAULT DATA
 
 Key result snapshot (from last run)
 -----------------------------------
