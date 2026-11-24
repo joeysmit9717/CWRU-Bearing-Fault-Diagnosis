@@ -12,11 +12,12 @@ and two feature pipelines.
   - **BearingFaultReport.pdf**          - Report on the findings
   
 
-  Python codes:
-  BearingFault.py                 - train 0/1/3 HP, test 2 HP (FFT+time RF)
-  BearingFault021unknown.py       - train 0.007/0.014/0.028", test 0.021"
+Python codes
+------------
+  - **BearingFault.py**                 - train 0/1/3 HP, test 2 HP (FFT+time RF)
+  - **BearingFault021unknown.py**       - train 0.007/0.014/0.028", test 0.021"
                                     (FFT+time RF)
-  BearingFaultDifferentApproach.py - same 0.021" hold-out with
+  - **BearingFaultDifferentApproach.py** - same 0.021" hold-out with
                                     bandpass-envelope BPFO/BPFI/BSF RF
 Dataset
 -------
