@@ -7,6 +7,8 @@ The dataset used in this project was obtained from its original source and is no
 
 All rights and ownership of the original dataset remain with their respective owners. Please refer to the original source for licensing information and terms of use.
 
+https://engineering.case.edu/bearingdatacenter/download-data-file
+
 What this folder contains
 -------------------------
 This portfolio package documents four-class bearing fault classification
@@ -60,17 +62,17 @@ What the analysis does
 
 Generated python plots
 -----------------
-  baseline_stats.png                 RMS / kurtosis / crest @ 0.007" 0 HP
-  time_signals_0_2000.png            Time signals, samples 0-2000
-  time_signals_10000_10500.png       Time signals, samples 10000-10500
-  time_signals_50000_50500.png       Time signals, samples 50000-50500
-  fft_magnitude_0_2000.png           FFT magnitude, samples 0-2000
-  fft_magnitude_10000_10500.png      FFT magnitude, samples 10000-10500
-  fft_magnitude_50000_50500.png      FFT magnitude, samples 50000-50500
-  cm_unknown_load.png                Confusion matrix (unknown 2 HP)
-  cm_unknown_severity_fft.png        Confusion matrix (0.021", FFT+time)
-  cm_unknown_severity_envelope.png   Confusion matrix (0.021", envelope)
-  accuracy_comparison.png            Head-to-head test accuracy bar chart
+-  baseline_stats.png                 RMS / kurtosis / crest @ 0.007" 0 HP
+-  time_signals_0_2000.png            Time signals, samples 0-2000
+-  time_signals_10000_10500.png       Time signals, samples 10000-10500
+-  time_signals_50000_50500.png       Time signals, samples 50000-50500
+-  fft_magnitude_0_2000.png           FFT magnitude, samples 0-2000
+-  fft_magnitude_10000_10500.png      FFT magnitude, samples 10000-10500
+-  fft_magnitude_50000_50500.png      FFT magnitude, samples 50000-50500
+-  cm_unknown_load.png                Confusion matrix (unknown 2 HP)
+-  cm_unknown_severity_fft.png        Confusion matrix (0.021", FFT+time)
+-  cm_unknown_severity_envelope.png   Confusion matrix (0.021", envelope)
+-  accuracy_comparison.png            Head-to-head test accuracy bar chart
                                    (portfolio summary figure for the report)
 
 How to regenerate the plots
